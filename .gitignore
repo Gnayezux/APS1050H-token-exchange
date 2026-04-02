@@ -1,3 +1,11 @@
+# Truffle
+build/contracts/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
 # Logs
 logs
 *.log
@@ -64,11 +72,6 @@ web_modules/
 
 # Yarn Integrity file
 .yarn-integrity
-
-# dotenv environment variable files
-.env
-.env.*
-!.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
