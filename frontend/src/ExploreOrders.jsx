@@ -111,7 +111,7 @@ export default function ExploreOrders({ account }) {
           tokenWant: log.args[2],
           amountSold: log.args[3],
           amountWant: log.args[4],
-          expiry: log.args[5],
+          expiry: log.args[5] * 1000n,
           nonce: log.args[6],
           sig: log.args[7],
           hash: log.args[8],
